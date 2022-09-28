@@ -127,6 +127,48 @@ filter: grayscale(100%);
     transform: rotate(0deg);
   }
  }   
+
+/* esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+  animation: test  2s linear;  
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: test-1  2s linear;  
+}
+
+@keyframes test{
+  0%{
+      left: 10%;
+    }
+
+  50%{
+      left: 60%;
+    }
+ 100%{
+      left: 10%;
+    }        
+} 
+ 
+@keyframes test-1{
+  0%{
+      right: 15%;
+    }
+
+  50%{
+      right: 60%;
+    }
+ 100%{
+      right: 15%;
+    }
+        
+} 
+
+
+
+
+  
       
       
 
