@@ -84,6 +84,18 @@ filter: grayscale(100%);
   border-radius: 20px;
   }
 
+     /* esercizio 9 */
+
+ .ex-9-img{
+  transition: 2s;
+}
+
+ .ex-9-img:hover{
+  filter:  sepia(50%) grayscale(70%);
+  border-radius: 20px;
+  transform: scale(1.5);
+  }
+
 
 
 
