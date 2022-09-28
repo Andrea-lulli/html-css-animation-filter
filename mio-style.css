@@ -97,6 +97,21 @@ filter: grayscale(100%);
   }
 
 
+      /* esercizio 9 */
+
+ .ex-10-icon{
+        animation: caricamento 2s linear infinite;
+      }
+
+ @keyframes caricamento{
+  0%{
+    transform: rotate(360deg);
+  }
+ }     
+      
+      
+
+
 
 
 
