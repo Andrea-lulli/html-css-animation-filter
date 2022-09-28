@@ -172,7 +172,7 @@ filter: grayscale(100%);
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-  animation: test13-1  3s linear;  
+  animation: test13-1  3s linear;
 }
 
 @keyframes test13{
