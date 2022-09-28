@@ -97,7 +97,7 @@ filter: grayscale(100%);
   }
 
 
-      /* esercizio 9 */
+      /* esercizio 10 */
 
  .ex-10-icon{
         animation: caricamento 2s linear infinite;
@@ -107,7 +107,26 @@ filter: grayscale(100%);
   0%{
     transform: rotate(360deg);
   }
- }     
+ }   
+ 
+ 
+      /* esercizio 11 */
+
+  .ex-11-icon:hover{
+        animation: caricamento-1 2s linear;
+      }
+
+ @keyframes caricamento-1{
+  0%{
+    transform: rotate(0deg);
+  }
+  85%{
+    transform: rotate(315deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+ }   
       
       
 
